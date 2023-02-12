@@ -8,3 +8,7 @@ def get_title(text: str):
     """Функция прелбразующая первые буквы в заглавные"""
 
     return ' '.join([x.title() for x in text.split(' ')])
+
+
+def fix_bag():
+    pass
